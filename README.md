@@ -24,31 +24,31 @@ Windows 11 x64  `win64`  `scripts/build.sh win64`  `cadog.exe` (64-bit PE)
 
 Linux (x86_64, arm64)  `linux`  `scripts/build.sh linux`  `cadog` (ELF)
 
-BSD** (FreeBSD, OpenBSD, NetBSD) bsd` | `scripts/build.sh bsd` | `cadog` (ELF) |
+BSD (FreeBSD, OpenBSD, NetBSD) bsd`  `scripts/build.sh bsd`  `cadog` (ELF) 
 
-macOS** (Universal arm64 + x86_64) | `macos` | `scripts/build.sh macos` | `cadog.app` |
+macOS (Universal arm64 + x86_64)  `macos`  `scripts/build.sh macos`  `cadog.app` 
 
-HaikuOS** | `haiku` | `scripts/build.sh haiku` | `cadog` |
+HaikuOS  `haiku`  `scripts/build.sh haiku`  `cadog` 
 
-ArcaOS / OS/2 Warp** | `arcaos` | `scripts/build.sh arcaos` | `cadog.exe` |
+ArcaOS / OS/2 Warp  `arcaos`  `scripts/build.sh arcaos`  `cadog.exe` 
 
-Mobile** | **Android** | `android` | `scripts/build.sh android` | APK (`com.cadog.game`) |
+Mobile  Android  `android`  `scripts/build.sh android`  APK (`com.cadog.game`) 
 
-Apple iOS** | `ios` | `scripts/build.sh ios` | iOS App Bundle (`.ipa`) |
+Apple iOS `ios`  `scripts/build.sh ios`  iOS App Bundle (`.ipa`) 
 
-Windows Phone / WinRT / UWP** | `winphone` | `scripts/build.sh winphone` | AppX Package |
+Windows Phone / WinRT / UWP  `winphone`  `scripts/build.sh winphone`  AppX Package 
 
-Symbian OS** (S60 v3/v5 Symbian^3)| `symbian` | `scripts/build.sh symbian` | `cadog.sis` |
+Symbian OS (S60 v3/v5 Symbian^3) `symbian`  `scripts/build.sh symbian`  `cadog.sis` 
 
-Console** | **Nintendo Wii** | `wii` | `scripts/build.sh wii` cadog.dol` (Homebrew Channel) |
+Console Nintendo Wii `wii`  `scripts/build.sh wii` cadog.dol` (Homebrew Channel) 
 
-Microsoft Xbox 360** | `xbox360` | `scripts/build.sh xbox360`| `cadog.xex` |
+Microsoft Xbox 360 `xbox360`  `scripts/build.sh xbox360` `cadog.xex` 
 
-Sony PlayStation 3** | `ps3` | `scripts/build.sh ps3` | `EBOOT.BIN` / `.pkg` |
+Sony PlayStation 3  `ps3`  `scripts/build.sh ps3`  `EBOOT.BIN` / `.pkg` 
 
-Nintendo 3DS** | `3ds` | `scripts/build.sh 3ds` | `cadog.3dsx` / `.cia` |
+Nintendo 3DS `3ds`  `scripts/build.sh 3ds`  `cadog.3dsx` / `.cia` 
 
-Sony PlayStation Vita** | `vita` scripts/build.sh vita` | `cadog.vpk` |
+Sony PlayStation Vita `vita` scripts/build.sh vita`  `cadog.vpk` 
 
 ---
 
@@ -92,7 +92,7 @@ cmake --build build/linux
 
 ---
 
-## Input Emulation System
+ Input Emulation System
 
 The game features a *Input Emulation Subsystem** that translates inputs from **keyboard** **gamepads / console controllers** and **on-screen touch overlays** into a unified set of abstract actions. Game logic runs identically across all desktop, console and mobile platforms.
 
@@ -116,7 +116,7 @@ The game features a *Input Emulation Subsystem** that translates inputs from **k
 
 | **Back / Exit** | Escape / Backspace | Back / Select Button | Wiimote `-` / Home | Select Button | Top- BACK` |
 
-### Touch Controls Emulation Features
+ Touch Controls Emulation Features
 
 - **Auto-Detection:** Automatically enables the touch overlay on mobile platforms (**Android** **iOS** **Windows Phone** **Symbian**) handheld consoles (**3DS** bottom screen **PS Vita** OLED touch) or whenever a touch event is detected.
 
@@ -128,7 +128,7 @@ The game features a *Input Emulation Subsystem** that translates inputs from **k
 
 ---
 
-## Project Structure
+ Project Structure
 
 ```
 
@@ -248,7 +248,7 @@ The game features a *Input Emulation Subsystem** that translates inputs from **k
 
 ---
 
-## Technical Documentation
+ Technical Documentation
 
 - [docs/PLATFORMS.md](docs/PLATFORMS.md): Step-by-step build guides, SDK setup and package generation for all 16 targets.
 
@@ -260,7 +260,7 @@ The game features a *Input Emulation Subsystem** that translates inputs from **k
 
 ---
 
-## License
+ License
 
 - **Recompilation Code:** Released under the MIT License.
 
