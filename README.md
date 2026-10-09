@@ -96,25 +96,25 @@ cmake --build build/linux
 
 The game features a *Input Emulation Subsystem** that translates inputs from **keyboard** **gamepads / console controllers** and **on-screen touch overlays** into a unified set of abstract actions. Game logic runs identically across all desktop, console and mobile platforms.
 
-| Action Keyboard | Gamepad (Xbox / PS / PC) | Wii Controller | 3DS / Vita | Mobile / Touch Screen |
+Action Keyboard  Gamepad (Xbox / PS / PC)  Wii Controller  3DS / Vita  Mobile / Touch Screen 
 
-|---|---|---|---|---|---|
 
-| **Move Left** | Left Arrow / `A` D-Pad Left / Left Stick Wiimote Left / Stick | Circle Pad / D-Pad | Virtual `<` button |
 
-| **Move Right**| Right Arrow / `D` D-Pad Right / Left Stick | Wiimote Right / Stick| Circle Pad / D-Pad | >` button |
+ **Move Left**  Left Arrow / `A` D-Pad Left / Left Stick Wiimote Left / Stick  Circle Pad / D-Pad  Virtual `<` button 
 
-| **Look Up** | Up Arrow / `W` | D-Pad Up / Left Stick Wiimote Up / Stick | Circle Pad / D-Pad | Virtual `^` button |
+ **Move Right** Right Arrow / `D` D-Pad Right / Left Stick  Wiimote Right / Stick| Circle Pad / D-Pad | >` button 
 
-| **Look Down** | Down Arrow / `S` | D-Pad Down / Left Stick | Wiimote Down / Stick | Circle Pad / D-Pad | Virtual `v. Button |
+ **Look Up**  Up Arrow / `W`  D-Pad Up / Left Stick Wiimote Up / Stick  Circle Pad / D-Pad  Virtual `^` button 
 
-| **Jump** | Space / `Z` | Button `A` / `B` (Cross) Wiimote `2` / Button `A` | Button `A` / `B` | Big Virtual `JUMP` Button |
+ **Look Down**  Down Arrow / `S`  D-Pad Down / Left Stick  Wiimote Down / Stick  Circle Pad / D-Pad  Virtual `v. Button 
 
-| **Action** | `X` / `C` / Shift Button `X` / `Y` (Square) | Wiimote `1` / Button `B` Button `X` / `Y` | Virtual `ACT` Button |
+**Jump**  Space / `Z`  Button `A` / `B` (Cross) Wiimote `2` / Button `A`  Button `A` / `B`  Big Virtual `JUMP` Button 
 
-| **Start / Next Level** Enter / Return | Start Button | Wiimote `+` Start Button | Top-Right `START` |
+**Action**  `X` / `C` / Shift Button `X` / `Y` (Square)  Wiimote `1` / Button `B` Button `X` / `Y`  Virtual `ACT` Button 
 
-| **Back / Exit** | Escape / Backspace | Back / Select Button | Wiimote `-` / Home | Select Button | Top- BACK` |
+ **Start / Next Level** Enter / Return  Start Button  Wiimote `+` Start Button  Top-Right `START` 
+
+ **Back / Exit**  Escape / Backspace | Back / Select Button  Wiimote `-` / Home  Select Button  Top- BACK` 
 
  Touch Controls Emulation Features
 
