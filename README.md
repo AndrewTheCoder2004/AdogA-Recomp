@@ -1,3 +1,4 @@
+<img width="1696" height="2528" alt="Gemini_Generated_Image_tgikqqtgikqqtgik" src="https://github.com/user-attachments/assets/670b3a2b-34b7-41e8-96d9-b15df5413abe" />
 # Cadog Adventures – Portable Multi-Platform Recompilation
 
 [![CI Matrix](https://img.shields.io/badge/CI-Multi--Platform-brightgreen.svg)](#supported-platforms)
