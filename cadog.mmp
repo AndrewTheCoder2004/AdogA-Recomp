@@ -1,0 +1,34 @@
+// Symbian OS project definition file (cadog.mmp)
+// Targets S60 3rd / 5th Edition and Symbian^3 with Open C / P.I.P.S. POSIX runtime
+
+TARGET          cadog.exe
+TARGETTYPE      exe
+UID             0x100039CE 0xE004AD09
+
+CAPABILITY      None
+EPOCSTACKSIZE   0x14000
+EPOCHEAPSIZE    0x20000 0x2000000
+
+SOURCEPATH      ../src
+SOURCE          main.cpp
+SOURCE          input.cpp
+SOURCE          audio.cpp
+SOURCE          game.cpp
+
+USERINCLUDE     ../src
+SYSTEMINCLUDE   /epoc32/include
+SYSTEMINCLUDE   /epoc32/include/stdapis
+SYSTEMINCLUDE   /epoc32/include/stdapis/sys
+SYSTEMINCLUDE   /epoc32/include/stdapis/stlportv5
+SYSTEMINCLUDE   /epoc32/include/SDL
+
+STATICLIBRARY   libcrt0.lib
+LIBRARY         euser.lib
+LIBRARY         libc.lib
+LIBRARY         libm.lib
+LIBRARY         libpthread.lib
+LIBRARY         libstdcpp.lib
+LIBRARY         sdl.lib
+
+OPTION GCCE -O2 -fno-unit-at-a-time
+STATICLIBRARY   libcrt0.lib

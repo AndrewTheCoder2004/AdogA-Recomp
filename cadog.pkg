@@ -1,0 +1,24 @@
+; Symbian installation package definition for Cadog Adventures
+&EN
+
+#{"Cadog Adventures"}, (0xE004AD09), 1, 0, 0
+
+%{"TA Studios"}
+:"TA Studios"
+
+; S60 3rd / 5th Edition / Symbian^3 platform support
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+[0x1028315F], 0, 0, 0, {"Series60ProductID"}
+[0x20022E6D], 0, 0, 0, {"Series60ProductID"}
+
+; Executable binary
+"/epoc32/release/armv5/urel/cadog.exe" - "!:\sys\bin\cadog.exe"
+
+; Assets directory
+"../assets/L0.clf" - "!:\private\E004AD09\assets\L0.clf"
+"../assets/background1.tga" - "!:\private\E004AD09\assets\background1.tga"
+"../assets/tiles_0_0.tga" - "!:\private\E004AD09\assets\tiles_0_0.tga"
+"../assets/player.tga" - "!:\private\E004AD09\assets\player.tga"
+"../assets/Coins.tga" - "!:\private\E004AD09\assets\Coins.tga"
+"../assets/Signs.tga" - "!:\private\E004AD09\assets\Signs.tga"
+"../assets/Enemy1.tga" - "!:\private\E004AD09\assets\Enemy1.tga"

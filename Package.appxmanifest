@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+         xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+         xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10">
+  <Identity Name="CadogAdventures.Port"
+            Publisher="CN=CadogTeam"
+            Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+                    PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <Properties>
+    <DisplayName>Cadog Adventures</DisplayName>
+    <PublisherDisplayName>Cadog Team</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.19041.0" />
+    <TargetDeviceFamily Name="Windows.Mobile" MinVersion="10.0.10240.0" MaxVersionTested="10.0.15254.0" />
+  </Dependencies>
+  <Applications>
+    <Application Id="App" Executable="cadog.exe" EntryPoint="CadogAdventures.App">
+      <uap:VisualElements DisplayName="Cadog Adventures"
+                          Square150x150Logo="Assets\Square150x150Logo.png"
+                          Square44x44Logo="Assets\Square44x44Logo.png"
+                          Description="Cadog Adventures for Windows Phone / Windows Mobile"
+                          BackgroundColor="#141828">
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+          <uap:Rotation Preference="landscapeFlipped" />
+        </uap:InitialRotationPreference>
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+</Package>

@@ -1,0 +1,6 @@
+// Symbian OS build definition file (bld.inf)
+PRJ_PLATFORMS
+GCCE ARMV5 WINSCW
+
+PRJ_MMPFILES
+cadog.mmp

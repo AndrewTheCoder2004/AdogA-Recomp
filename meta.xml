@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+    <name>Cadog Adventures</name>
+    <version>1.0.0</version>
+    <release_date>20261009</release_date>
+    <coder>Niklas Wahrman / TA Studios (Port: Cadog Team)</coder>
+    <short_description>Platformer game Cadog Adventures</short_description>
+    <long_description>Port of the PC platformer Cadog Adventures (Assembly '04) for Nintendo Wii. Fully supports Wiimote, Classic Controller, and GameCube gamepad.</long_description>
+</app>

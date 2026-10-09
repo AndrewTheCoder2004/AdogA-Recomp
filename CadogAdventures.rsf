@@ -1,0 +1,18 @@
+BasicInfo:
+  Title: "Cadog Adventures"
+  CompanyCode: "00"
+  ProductCode: "CTR-P-CDOG"
+  ContentType: Application
+  Logo: Nintendo
+
+TitleInfo:
+  Category: Application
+  UniqueId: 0x0CD09
+
+CardInfo:
+  MediaSize: 128MB
+  MediaType: Card1
+
+Option:
+  UseOnSD: true
+  EnableCompress: true
